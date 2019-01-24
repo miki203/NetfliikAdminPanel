@@ -1,0 +1,17 @@
+.container {
+  width: 600px;
+  padding: 30px;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+
+.row > .btn{
+  padding: 30px;
+  margin: 10px;
+  width: 90%;
+  font-size: x-large;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: yellowgreen;
+}

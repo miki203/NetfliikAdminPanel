@@ -1,0 +1,19 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="assets/img/netfliix.png" class="icon-bar" id="icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login" [(ngModel)]="user_name">
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="hasło" [(ngModel)]="password">
+      <ng-flash-message class="err_message"></ng-flash-message>
+      <input type="submit" class="fadeIn fourth" value="Zaloguj" (click)="login()">
+    </form>
+
+  </div>
+</div>

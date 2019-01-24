@@ -1,0 +1,13 @@
+<div class="container bg-light">
+  <div class="row">
+    <h1 style="margin-bottom: 30px">Usuwanie filmu</h1>
+    <div class="form-group">
+      <label>Wybierz tytuł filmu do usunięcia</label>
+      <ng-select [items]="tab" [(ngModel)]="wybranaKategoria" class="ng-select"></ng-select>
+      <!--<input type="text" class="form-control" [(ngModel)]="category" name="category" />-->
+    </div>
+    <ng-flash-message></ng-flash-message>
+    <button class="pull-right btn btn-light" style="margin-left: 5px" [routerLink]="['../']">Anuluj</button>
+    <button class="pull-right btn btn-danger" (click)="addMovie()">Usuń</button>
+  </div>
+</div>

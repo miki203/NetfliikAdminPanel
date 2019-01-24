@@ -1,0 +1,19 @@
+.container {
+  width: 600px;
+  padding: 80px;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+
+.ng-select  {
+  border:0px;
+  min-height: 0px;
+  border-radius: 0;
+}
+.ng-control  {
+  min-height: 0px;
+  border-radius: 0;
+}
+:host-context(.selectcustom) .ng-control {
+  min-height: 0px;
+  border-radius: 0;
+}

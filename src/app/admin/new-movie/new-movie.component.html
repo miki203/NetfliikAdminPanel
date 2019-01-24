@@ -1,0 +1,29 @@
+<div class="container bg-light">
+  <div class="row">
+    <h1 style="margin-bottom: 30px">Nowy Film</h1>
+    <div class="form-group">
+      <label>Tytuł</label>
+      <input type="text" class="form-control" [(ngModel)]="title" name="title" required=""/>
+    </div>
+    <div class="form-group">
+      <label>Kategoria</label>
+      <ng-select [items]="tab" [(ngModel)]="wybranaKategoria" class="ng-select"></ng-select>
+      <!--<input type="text" class="form-control" [(ngModel)]="category" name="category" />-->
+    </div>
+    <div class="form-group">
+      <label>Opis</label>
+      <input type="text" class="form-control" [(ngModel)]="description" name="description"/>
+    </div>
+    <div class="form-group">
+      <label>Scieżka do filmu</label>
+      <input type="text" class="form-control" [(ngModel)]="movieUrl" name="movieUrl"/>
+    </div>
+    <div class="form-group">
+      <label>Scieżka do miniatury</label>
+      <input type="text" class="form-control" [(ngModel)]="thumbnailUrl" name="thumbnailUrl"/>
+    </div>
+    <ng-flash-message></ng-flash-message>
+    <button class="pull-right btn btn-light" style="margin-left: 5px" [routerLink]="['../']">Anuluj</button>
+    <button class="pull-right btn btn-success" (click)="addMovie()">Dodaj</button>
+    </div>
+</div>
