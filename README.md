@@ -1,27 +1,9 @@
 # NetfliixAdminPanel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+The project was created on the subject of "Advanced technologies of network services" 
 
-## Development server
+database: postgresql
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![screen1](https://user-images.githubusercontent.com/38925450/52089500-f535ed00-25ae-11e9-8db0-6da5486de600.jpg)
+![screen2](https://user-images.githubusercontent.com/38925450/52089497-f49d5680-25ae-11e9-9650-7259db4cb958.jpg)
+![screen3](https://user-images.githubusercontent.com/38925450/52089498-f535ed00-25ae-11e9-8cd0-25d97099c6f4.jpg)
